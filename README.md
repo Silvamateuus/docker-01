@@ -1,6 +1,6 @@
 # Docker-01
 
-## Como insalar docker no linux
+## Passos de como instalar o Docker no Ubuntu
 
 #### 1. Atualize seu Sistema
     - Então, o sistema precisa ser atualizado para você ter mais segurança e
