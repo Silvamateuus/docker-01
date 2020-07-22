@@ -1,0 +1,52 @@
+
+# 01 - COMANDO (RUN) 
+
+     - O comando "RUN" faz o download das imagens no (Docker-Hub)
+     - A img (hello-world só exibe uma mensagem no terminal. Outras imagens não exibirão mensagem 
+       pois é um ambiente e tem outras finalidades)    
+    
+
+          $ docker run hello-wolrd 
+
+
+    - Quando executamos o comando (DOCKER RUN):
+         a. Verifica se possuimos a imagem no micro
+         b. Se não possuir a imagem, o (Docker Deamon/Docker Host) busca a imagem no (DockerHub) e baixa;
+         c. Após startar o container que foi criado com aquela imagem(Receita de bolo) esta apto a ser usado
+
+    - O que é a Imagem?
+        - Imagem é a receita para criar o container nela possui os passos para criar o determinado container    
+
+
+# 02 - COMANDO (PS) 
+
+     - O Comando "PS" serve para listar os container que possui na maquina.
+
+          a. O comando "docker ps" listara somente os container que estão rodando no momento
+
+                $ docker ps   
+
+          b. O comando "docker ps -a" listara todos os container independente se não estão rodando no momento
+
+                $ docker ps -a  
+
+
+# 03 - RODAR CONTAINER DE MODO ITERATIVO (-IT)
+
+     -  O comando "docker run -it ubuntu" permite que eu entre no ambiente via terminal 
+
+          $ docker run -it ubuntu
+
+
+
+
+
+# COMANDOS:
+
+$ docker run hello-wolrd     # Baixa a imagem e ja starta por ser (hello-world)
+$ docker run ubuntu echo "printar mensagem no terminal com container UBUNTU"
+
+$ docker ps                  # Listar todos os container que estão ativos no momento
+$ docker ps -a               # Listar todos os container independente de estar ativo
+
+
