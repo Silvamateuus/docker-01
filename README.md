@@ -3,7 +3,8 @@
 ## Como insalar docker no linux
 
 #### 1. Atualize seu Sistema
-    - Então, o sistema precisa ser atualizado para você ter mais segurança e confiabilidade para a instalação do Docker. Execute os dois comandos abaixo:
+    - Então, o sistema precisa ser atualizado para você ter mais segurança e
+      confiabilidade para a instalação do Docker. Execute os dois comandos abaixo:
 
         - $ sudo apt update
         - $ sudo apt upgrade
@@ -11,16 +12,18 @@
 
 #### 3. Instale Pacotes Pré-requisitos
     
-    - Assim que atualizar o sistema, você deve instalar alguns dos pacotes necessários antes de instalar o Docker Ubuntu. Você pode fazer isso com a ajuda de um 
-      único comando:
+    - Assim que atualizar o sistema, você deve instalar alguns dos pacotes 
+      necessários antes de instalar o Docker Ubuntu. Você pode fazer isso com
+      a ajuda de um único comando:
 
          $ sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
 
 
 #### 4. Adicione os Repositórios do Docker
 
-    - Agora você tem adicionar os repositórios do Docker. Isso vai fazer com que o processo de instalação seja muito mais fácil. Isso habilita você a usar o      
-      método oficial suportado de instalação.
+    - Agora você tem adicionar os repositórios do Docker.
+      Isso vai fazer com que o processo de instalação seja
+      muito mais fácil. Isso habilita você a usar o método oficial suportado de instalação.
 
     - Primeiro, você adiciona uma chave GPG, inserindo o comando a seguir na linha de comando do sistema:
 
