@@ -70,6 +70,9 @@ $ docker run ubuntu echo  "msg no terminal"
 $ docker ps                   # Listar todos os container que estão ativos no momento
 $ docker ps -a                # Listar todos os container independente de estar ativo
 
+$ docker start <id do container>
+$ docker stop <id do container>
+$ docker stop -t 0 <id container>  # Por padrão o docker para o container em 10 s, passando o (-t numero) ele para mais rapido.
 
 $ docker rm <id container>    # Remove o Container
 $ docker container prune      # Remove todos os containers 
