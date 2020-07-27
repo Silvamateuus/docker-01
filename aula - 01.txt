@@ -38,9 +38,13 @@
           $ docker run -it ubuntu
 
 
-# O que é leyars?
+# O que é leyered Filesystem?
 
-       -  Uma camada da imagem 
+       - São as camadas da imagem do container 
+       - As leyered das imagens são bloquedas para escrita
+       - Quando executamos um container é criado uma (Layered) a parte para escrita que não faz parte das layered da imagem em sí.
+       - Pode ser reaproveitado em outras imagens
+       
 
 
 # COMANDOS:
