@@ -16,7 +16,7 @@
 
     - O que é a Imagem?
         - Imagem é a receita para criar o container nela possui os passos para criar o determinado container    
-
+-
 
 # 02 - COMANDO (PS) 
 
