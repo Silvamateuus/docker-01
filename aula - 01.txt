@@ -87,5 +87,6 @@ $ docker run -d -P dockersamples/static-site   #  -d: Roda em background e -P: o
 
 $ docker port <id do container> # ver as portas  que o container esta utilizando
 
+docker run -d -P --name meu-site dockersamples/static-site  # --name: nomear o container
 
 
