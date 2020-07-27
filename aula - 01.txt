@@ -38,14 +38,16 @@
           $ docker run -it ubuntu
 
 
+# O que é leyars?
 
+       -  Uma camada da imagem 
 
 
 # COMANDOS:
 
 $ docker run hello-wolrd     # Baixa a imagem e ja starta por ser (hello-world)
 
-$ docker run ubuntu echo  "printar mensagem no terminal com container UBUNTU"
+$ docker run ubuntu echo  "msg no terminal"
 
 $ docker ps                   # Listar todos os container que estão ativos no momento
 $ docker ps -a                # Listar todos os container independente de estar ativo
