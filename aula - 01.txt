@@ -44,9 +44,17 @@
 # COMANDOS:
 
 $ docker run hello-wolrd     # Baixa a imagem e ja starta por ser (hello-world)
-$ docker run ubuntu echo "printar mensagem no terminal com container UBUNTU"
 
-$ docker ps                  # Listar todos os container que estão ativos no momento
-$ docker ps -a               # Listar todos os container independente de estar ativo
+$ docker run ubuntu echo  "printar mensagem no terminal com container UBUNTU"
 
+$ docker ps                   # Listar todos os container que estão ativos no momento
+$ docker ps -a                # Listar todos os container independente de estar ativo
+
+
+$ docker rm <id container>    # Remove o Container
+$ docker container prune      # Remove todos os containers 
+
+
+$ docker images               # Listar imagens
+$ docker rmi <imagem>         # Remove a imagem
 
