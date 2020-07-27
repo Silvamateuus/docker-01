@@ -78,7 +78,7 @@ $ docker images               # Listar imagens
 $ docker rmi <imagem>         # Remove a imagem
 
 
-$ docker run -d dockersamples/static-site   # -d: não trava o terminal
+$ docker run -d dockersamples/static-site   # -d: não trava o terminal rodará em background
 
 
 
