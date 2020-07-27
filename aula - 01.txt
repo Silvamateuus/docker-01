@@ -83,7 +83,7 @@ $ docker rmi <imagem>         # Remove a imagem
 
 $ docker run -d dockersamples/static-site   # -d: não trava o terminal rodará em background
 
-
+$ docker run -d -P dockersamples/static-site   #  -d: Roda em background e -P: o docker criar numeros de porta para minha maquina local ter acesso a ele.
 
 
 
