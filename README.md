@@ -6,8 +6,8 @@
     - Então, o sistema precisa ser atualizado para você ter mais segurança e
       confiabilidade para a instalação do Docker. Execute os dois comandos abaixo:
 
-        - $ sudo apt update
-        - $ sudo apt upgrade
+          $ sudo apt update
+          $ sudo apt upgrade
 
 
 #### 3. Instale Pacotes Pré-requisitos
