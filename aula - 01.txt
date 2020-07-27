@@ -47,6 +47,20 @@
        
 
 
+
+# Imagens não oficiais
+
+
+$ docker run dockersamples/static-site   # docker run nome_da_imagem/nome_que_quero
+
+
+
+
+
+
+
+
+
 # COMANDOS:
 
 $ docker run hello-wolrd     # Baixa a imagem e ja starta por ser (hello-world)
@@ -60,7 +74,14 @@ $ docker ps -a                # Listar todos os container independente de estar 
 $ docker rm <id container>    # Remove o Container
 $ docker container prune      # Remove todos os containers 
 
-
 $ docker images               # Listar imagens
 $ docker rmi <imagem>         # Remove a imagem
+
+
+$ docker run -d dockersamples/static-site   # -d: não trava o terminal
+
+
+
+
+
 
